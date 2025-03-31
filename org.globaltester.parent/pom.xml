@@ -11,7 +11,7 @@
     <forceContextQualifier>SNAPSHOT</forceContextQualifier>
 
     <maven.compiler.release>17</maven.compiler.release> <!-- since JDK 9 -->
-	
+
     <tycho.version>4.0.8</tycho.version>
     <tycho.testArgLine>-Xmx3G -Djdk.net.URLClassPath.disableClassPathURLCheck=true --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/javax.crypto.spec=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.smartcardio/sun.security.smartcardio=ALL-UNNAMED</tycho.testArgLine>
 
@@ -36,7 +36,7 @@
     <!-- <maven-surefire.version>2.22.2</maven-surefire.version> -->
     <maven-surefire.version>3.3.0</maven-surefire.version>
     <build-helper-maven-plugin.version>3.6.0</build-helper-maven-plugin.version>
-    
+
     <dependency-check-maven.version>10.0.1</dependency-check-maven.version>
     <cyclonedx-maven-plugin.version>2.8.0</cyclonedx-maven-plugin.version>
     <maven-antrun-plugin.version>3.1.0</maven-antrun-plugin.version>

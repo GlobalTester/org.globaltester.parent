@@ -20,7 +20,6 @@
     </dependency>
   </dependencies>
 
-  
   <profiles>
     <profile>
       <id>maven-surefire</id>
